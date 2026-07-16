@@ -1,0 +1,10 @@
+{
+  "description": "Connects students and parents with top coaching institutes through personalized career counseling and streamlined admission support for informed decisions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
