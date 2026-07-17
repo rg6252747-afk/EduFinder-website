@@ -174,7 +174,7 @@ function Hero() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
               <img
-               ={heroImage}
+                src={heroImage}
                 alt="Happy students with books ready for bright future"
                 className="rounded-2xl object-cover w-full max-w-md shadow-2xl"
                 style={{ height: 480 }}
