@@ -11,7 +11,7 @@ const MINT = "#22C55E";
 function EduFinderLogo({ height = 48 }: { height?: number }) {
   return (
     <img
-      ={logoImage}
+      src={logoImage}
       alt="EduFinder — Sahi Chuniye"
       style={{ height, width: "auto", display: "block", objectFit: "contain" }}
     />
