@@ -481,7 +481,7 @@ function EnquiryForm() {
 
             <div className="mt-10 flex items-center gap-4">
               <img
-                ="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format"
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format"
                 alt="Expert career counselor Rahul Verma"
                 className="w-14 h-14 rounded-full object-cover border-2"
                 style={{ borderColor: EMERALD }}
@@ -915,7 +915,7 @@ function Testimonials() {
             </p>
             <div className="flex items-center gap-4">
               <img
-                ={testimonials[active].avatar}
+                src={testimonials[active].avatar}
                 alt={testimonials[active].name}
                 className="w-14 h-14 rounded-full object-cover border-2"
                 style={{ borderColor: MINT }}
