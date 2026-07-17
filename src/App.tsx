@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import logoImage from "@/imports/WhatsApp_Image_2026-07-16_at_12.24.59_PM__2_-1.jpeg";
+import heroImage from "@/imports/students.jpeg";
 
 // ─── Brand colors as JS constants for inline use where Tailwind can't ──────
 const NAVY = "#0D1B3E";
@@ -10,7 +11,7 @@ const MINT = "#22C55E";
 function EduFinderLogo({ height = 48 }: { height?: number }) {
   return (
     <img
-      src={logoImage}
+      ={logoImage}
       alt="EduFinder — Sahi Chuniye"
       style={{ height, width: "auto", display: "block", objectFit: "contain" }}
     />
@@ -173,7 +174,7 @@ function Hero() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=560&h=680&fit=crop&auto=format"
+               ={heroImage}
                 alt="Happy students with books ready for bright future"
                 className="rounded-2xl object-cover w-full max-w-md shadow-2xl"
                 style={{ height: 480 }}
@@ -480,7 +481,7 @@ function EnquiryForm() {
 
             <div className="mt-10 flex items-center gap-4">
               <img
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format"
+                ="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format"
                 alt="Expert career counselor Rahul Verma"
                 className="w-14 h-14 rounded-full object-cover border-2"
                 style={{ borderColor: EMERALD }}
@@ -914,7 +915,7 @@ function Testimonials() {
             </p>
             <div className="flex items-center gap-4">
               <img
-                src={testimonials[active].avatar}
+                ={testimonials[active].avatar}
                 alt={testimonials[active].name}
                 className="w-14 h-14 rounded-full object-cover border-2"
                 style={{ borderColor: MINT }}
